@@ -43,6 +43,11 @@ public class NutritionFacts {
     			sodium = builder.sodium;
     			carbohydrate = builder.carbohydrate;
     			}
+    			
+    			public String toString() {
+					return "serving size "+servingSize+"servings "+servings+"calories "+calories+"fat "+fat+"sodium "+sodium+" ";
+    				
+    			}
 }
 
 
